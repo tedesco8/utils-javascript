@@ -1,4 +1,4 @@
-import { dynamicSteps } from "./dynamicSteps";
+import { dynamicSteps } from "./object.util";
 
 export {
     dynamicSteps

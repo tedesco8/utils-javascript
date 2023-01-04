@@ -1,4 +1,4 @@
-import { getLocalDate } from "./getLocalDate";
+import { getLocalDate } from "./date.util";
 
 export {
     getLocalDate

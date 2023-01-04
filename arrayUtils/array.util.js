@@ -6,3 +6,5 @@ export const getRandomItem = (array) => {
 
     return array[randomIndex]
 }
+
+export const removeDuplicateItem = (array) => [...new Set(array)];

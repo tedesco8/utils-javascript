@@ -1,3 +1,5 @@
+import {JSEncrypt } from 'jsencrypt';
+
 export const decodeToken = (token) => {
     let base64Url = token.split('.')[1];
     let base64 = base64Url.replace(/-/g, '+').replace(/_/g, '/');
@@ -6,4 +8,10 @@ export const decodeToken = (token) => {
     }).join(''));
     
     return JSON.parse(jsonPayload);
+}
+
+export const encryptStr = (publicKey, str) => {
+    const encrypt = new JSEncrypt();
+    encrypt.setPublicKey(publicKey);
+    return encrypt.encrypt(str);
 }

@@ -1,5 +1,4 @@
-import { encryptStr } from "./encryptStr";
-import { decodeToken } from "./decodeToken";
+import { encryptStr, decodeToken } from "./crypto.util";
 
 export {
     encryptStr,

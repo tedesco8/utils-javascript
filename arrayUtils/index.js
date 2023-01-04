@@ -1,5 +1,4 @@
-import { getRandomItem } from "./getRandomItem";
-import { removeDuplicateItem } from "./removeDuplicateItem";
+import { getRandomItem, removeDuplicateItem } from "./array.util";
 
 export {
     getRandomItem,

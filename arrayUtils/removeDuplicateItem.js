@@ -1,1 +1,0 @@
-export const removeDuplicateItem = (array) => [...new Set(array)];
