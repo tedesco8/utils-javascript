@@ -1,6 +1,7 @@
-import { getRandomItem, removeDuplicateItem } from "./array.util";
+import { getRandomItem, removeDuplicateItem, binarySearch } from "./array.util";
 
 export {
     getRandomItem,
-    removeDuplicateItem
+    removeDuplicateItem,
+    binarySearch
 }
