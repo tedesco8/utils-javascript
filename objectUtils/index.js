@@ -1,5 +1,6 @@
-import { dynamicSteps } from "./object.util";
+import { dynamicSteps, getFromJson } from "./object.util";
 
 export {
-    dynamicSteps
+    dynamicSteps,
+    getFromJson
 }
